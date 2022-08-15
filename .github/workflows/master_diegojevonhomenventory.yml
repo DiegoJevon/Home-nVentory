@@ -6,7 +6,7 @@ name: Build and deploy WAR app to Azure Web App - diegojevonHomenVentory
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
